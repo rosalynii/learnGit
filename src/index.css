@@ -8,6 +8,14 @@ ul {
   padding-left: 30px;
 }
 
+button {
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 幼圆;
+  color: white;
+  background: #bbe3fa;
+}
 .board-row:after {
   clear: both;
   content: '';
@@ -19,18 +27,18 @@ ul {
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: #bbe3fa;
+  border: 2px solid rgb(137, 172, 248);
+  border-radius: 10px;
   float: left;
-  font-size: 24px;
+  font-size: 35px;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
+  line-height: 8px;
+  height: 50px;
+  width: 50px;
   margin-right: -1px;
   margin-top: -1px;
-  padding: 0;
   text-align: center;
-  width: 34px;
 }
 
 .square:focus {
